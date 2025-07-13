@@ -17,5 +17,5 @@ FROM alpine:latest
 
 WORKDIR /root/
 COPY --from=builder /app/proxy-service .
-EXPOSE 8080
+EXPOSE 8000
 CMD ["./proxy-service"]
