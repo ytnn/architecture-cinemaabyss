@@ -2,10 +2,8 @@
 
 # Задание 1
 
-1. Спроектируйте to be архитектуру КиноБездны, разделив всю систему на отдельные домены и организовав интеграционное взаимодействие и единую точку вызова сервисов.
-Результат представьте в виде контейнерной диаграммы в нотации С4.
-Добавьте ссылку на файл в этот шаблон
-[ссылка на файл](ссылка)
+1. [Контейнерная диаграмма в нотации С4](https://www.plantuml.com/plantuml/uml/bLVTJXj75BxtKqovAP40grAlUfMVL2bgI5nCI7k5rcP2Lh6zrkuwWAfAsEGdaYkHHArQHQWawaLl3M5RGupp2ZElq2VfTyvulTxnqCXI0Zkpiz_vpiyvtt0rYhqmRjLhXS_yHhNMsfIji2OUnd4p-gfO3BtjfIq_VjYgj28PLeD6B1lnKZMe5virhq6VBKRnPisl56zykLYYhNihjujrBufbYAsD6_Z2ynioN6gIYTlNVhXxRsrZxMvfu-RT-tVchnG-5-f83TK7_RFw1xzFL4ztL4BhGac6KT2O9yCBOkwoOtFqxfqQgA7kw3tLrnsXdwW-7ntexe9GGwo7U3N0te5AS41z1COfVlPrMvsh_eBG--eZZlI0F3xKXwbZthnG5xgh1dDN2eNoBbohRrmFMerDBzoThtv1zj_Wy0KmZrM2Zqxnt9kx8dui58I0Ws_K1xnF0D9XUtWMR0uiyT7Vz0fK3d1w7A_vRLcvrcm2_Bwi23oHdwlIgyR5zPPafr_Zk-D5iaonq7jmCr5dkYr004x0X2jYT0QEJ9gg1nM_9esr5NvE3NuRn3M_KInl-mzYjdd8Jd9qsM6N8ognyACwAcnjtHWeqqAihQScxdYn_zWuT3IDbFgIVWLa4zEtE772NhSNcS9GdIEuVO5_rqhBufONosrlDySZb8zHKh8K1Zkx74rU2bupbLlBTxwd1w3t04Qm2GWauvhW4kjnVPsJ9THK3nHUuF--xd35zEcP3sFHCzHqMtUjc7XDVqGHzZB2pEDMm2H-XMaa5nOEO1Wepr4xFQ5Ez5CktzuuqUTPWL6gnq4w99w608KA0UiJbJoHLlomBCF7VbKI4wp4Q3b1vIMxPmpqZVkWzOoAbiE0lc66Unm2VZD30NABPnpkOUNWy6VMeLbrE2qWMGDJ2IRyJ9W-6jY5BsDlqukzpFRAQCTX_v2I2lkduu6GJ4mQiYyiU8p8tOfNVPJ1h_kRCX3bE9HUtMziJLen7K1JZ4fvv0x7C35bYELpJh_gSqqExIvhLQ9gw3TZFsXa5iiJkmwdZgO6OOSgcf9CirEtUTtH-uuIRdgxTQX1PgjaDXncVZSpIhq7zAWwW4tEVM3uL-XuH9JJHbtCTXFgBjgox8PUZDXbPbTvxR3wbkTXXvle_QWWXh2EwY5dhUpPLYHK3kviUlc0hkRsP_3r15OJ_G8_mIhlvH0Rb6JE-u3vdPflrLdQp8pxX37n6G-PSquCTgoYZY9lIruFWqSid2jcBSm6JtNlmIDlrDTjre-dF40lqc7pmimT8ebnhxiSGxjfgKqgNiHTWnrnyxguKMj5iR5H2g9uAvJbxswd0vM5aRhpLTO-ROooX6HQS8SYFyTqaDOiqOBc36hZ5CVFnEGK0vcV2dHxU3qEAmy4l3ApaZOuord3fEBzzKuyBtT0jE7Loa4hhCe872qaZWUgKvsfYqK0iS1pldeS_YuhXemVrFoT1R6ylhmWqci0SmSHen4WlxS4kWxZ-LhAST07-i1gXSjB15zIcVpFPKhy--nrxY9IM9MrqTLgVDCWd6_MrafbW6Ml9sy7xXEPlbj72jRbfyiqShfBEpd19jYKaINOjlMCsQTEPWm_UJJ_EYVJwj1M-xJ1Kn3sUT8TTizINx8oYPjNOFNIfQK0jZ_BYoPts35LAFUjI_biW6drK-yoea8DRC7JJnqeRjcvNAqpjS7KS-1DgOhw8vK9rNESjzG0nxC9xuAVqcHrP6v8wPyGUOMTCkUM1SJVrPjCWQTK2WbVHXBFq5Dq77FfDzKpmUIvZARcssK6PDgVuIvXT_cyCUDYNpyV9-bJGmREsAh1mpmd5lg0wTYvjAK9eTzNnpmWpisbsKB9rChuDrLiRjIipAXqXQrbV3STZYyVNTjAhhDizCd378rVg7X8YTL7oDL8mH2FoRvXs5oVJwYd-WkSHk4lShQPkldJ5W9givhzStTfp0xapi7iC7Pjp8xWx9tP8QP6uEmGrloP3U0gyj6gr_u3).
+
 
 # Задание 2
 
@@ -58,6 +56,34 @@
 
 Необходимые тесты для проверки этого API вызываются при запуске npm run test:local из папки tests/postman 
 Приложите скриншот тестов и скриншот состояния топиков Kafka из UI http://localhost:8090 
+
+<img width="1242" height="810" alt="image" src="https://github.com/user-attachments/assets/3af45731-60b1-4ed0-9ecd-d9dd7c09041e" />
+
+
+<img width="1313" height="760" alt="image" src="https://github.com/user-attachments/assets/94eab867-a393-4ed4-a044-88504937ec20" />
+
+
+<img width="1614" height="699" alt="Screenshot 2025-07-13 144611" src="https://github.com/user-attachments/assets/efadc6a4-5be5-4e6b-b600-3df308f7c6c9" />
+
+
+
+<img width="2203" height="548" alt="image" src="https://github.com/user-attachments/assets/03f65dbe-84b4-49bc-9dc9-5f8e3c6fece7" />
+
+
+<img width="2227" height="714" alt="image" src="https://github.com/user-attachments/assets/7d5e8e74-6a5d-406b-86c1-90ad039a9e98" />
+
+
+
+<img width="2492" height="688" alt="Screenshot 2025-07-13 144515" src="https://github.com/user-attachments/assets/666f6c9f-3b30-4003-8e20-34c2475dd1ef" />
+
+
+
+<img width="2503" height="540" alt="Screenshot 2025-07-13 144524" src="https://github.com/user-attachments/assets/02f31e1a-3eb5-4c49-80ea-ac40ea04a929" />
+
+
+
+<img width="2480" height="546" alt="Screenshot 2025-07-13 144531" src="https://github.com/user-attachments/assets/29b59a11-83e5-4312-915e-a453414fc488" />
+
 
 # Задание 3
 
@@ -271,10 +297,15 @@ cat .docker/config.json | base64
   ```
   Часть тестов с health-чек упадет, но создание событий отработает.
   Откройте логи event-service и сделайте скриншот обработки событий
+  
 
 #### Шаг 3
 Добавьте сюда скриншота вывода при вызове https://cinemaabyss.example.com/api/movies и  скриншот вывода event-service после вызова тестов.
 
+<img width="2543" height="1288" alt="Screenshot 2025-07-13 223035" src="https://github.com/user-attachments/assets/e4aa73a4-3533-4c33-93ef-8809ce06199d" />
+
+
+<img width="1700" height="888" alt="Screenshot 2025-07-13 222930" src="https://github.com/user-attachments/assets/c9d2dedf-fff0-4e57-b147-8f86651b2f0a" />
 
 # Задание 4
 Для простоты дальнейшего обновления и развертывания вам как архитектуру необходимо так же реализовать helm-чарты для прокси-сервиса и проверить работу 
@@ -349,6 +380,15 @@ minikube tunnel
 Потом вызовите 
 https://cinemaabyss.example.com/api/movies
 и приложите скриншот развертывания helm и вывода https://cinemaabyss.example.com/api/movies
+
+<img width="1819" height="326" alt="Screenshot 2025-07-13 230541" src="https://github.com/user-attachments/assets/6cc52f97-8b8a-40ed-bede-8cc592e55eb4" />
+
+
+<img width="1574" height="522" alt="image" src="https://github.com/user-attachments/assets/c969a9d3-9502-482c-ae59-f0e53bd54409" />
+
+
+<img width="2533" height="1286" alt="image" src="https://github.com/user-attachments/assets/e16e9de1-2d83-43d7-b88c-57e9637ed629" />
+
 
 ## Удаляем все
 
