@@ -30,7 +30,7 @@ func proxyRequest(w http.ResponseWriter, r *http.Request, url string) {
 	if err != nil {
 		log.Println("request failed:", err)
 		log.Printf("Request: %s %s\n", req.Method, req.URL)
-		log.Printf("Response status: %s\n", resp.Status)
+		//log.Printf("Response status: %s\n", resp.Status)
 
 		http.Error(w, "bad gateway", http.StatusBadGateway)
 		return
