@@ -18,7 +18,12 @@ func getMigrationPercent() int {
 }
 
 func proxyRequest(w http.ResponseWriter, r *http.Request, url string) {
-	req, err := http.NewRequest(r.Method, url, r.Body)
+	targetURL := url + r.URL.Path
+	if r.URL.RawQuery != "" {
+		targetURL += "?" + r.URL.RawQuery
+	}
+
+	req, err := http.NewRequest(r.Method, targetURL, r.Body)
 	if err != nil {
 		http.Error(w, "bad request", http.StatusBadRequest)
 		return
@@ -45,3 +50,4 @@ func proxyRequest(w http.ResponseWriter, r *http.Request, url string) {
 	w.WriteHeader(resp.StatusCode)
 	io.Copy(w, resp.Body)
 }
+
